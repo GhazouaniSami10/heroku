@@ -8,6 +8,7 @@ from PIL import Image
 from flask import send_file
 # create the application object
 app = Flask(__name__)
+app._static_folder = "/home/gladiateur/Desktop/flask/corona/templates"
 
 
 detector = Detector()
